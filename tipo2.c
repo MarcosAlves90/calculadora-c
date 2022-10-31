@@ -27,24 +27,26 @@ if(op == 1) {
 
 if(op == 2) {
     res = n1 - n2;
-    printf("Subtração: %f.\n", res);
+    printf("Subtracao: %f.\n", res);
 }
 
 if(op == 3) {
     res = n1 * n2;
-    printf("Multiplicação: %f.\n", res);
+    printf("Multiplicacao: %f.\n", res);
 }
 
 if(op == 4) {
     if(n2 == 0) {
-        printf("Divisão por zero.");
+        printf("Divisao por zero. ");
     } else {
         
      res = n1 / n2;
-     printf("Divisão: %f.\n", res);
+     printf("Divisao: %f.\n", res);
         
     }
 }
+
+system("pause");
 
 return 0;
 }

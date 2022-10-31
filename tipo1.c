@@ -28,26 +28,28 @@ break;
 
 case 2:
 res = n1 - n2;
-printf("Subtração: %f.\n", res);
+printf("Subtracao: %f.\n", res);
 break;
 
 case 3:
 res = n1 * n2;
-printf("Multiplicação: %f.\n", res);
+printf("Multiplicacao: %f.\n", res);
 break;
 
 case 4:
 
     if(n2 != 0) {
      res = n1 / n2;
-     printf("Divisão: %f.\n", res);
+     printf("Divisao: %f.\n", res);
     } else {
-     printf("Divisão por zero.");
+     printf("Divisao por zero. ");
     }
 
 break;
 
 }
+
+system("pause");
 
 return 0;
 }
